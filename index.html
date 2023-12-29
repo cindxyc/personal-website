@@ -10,45 +10,59 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar"></nav>
+    <nav class="navbar">
     <!-- creating a class using "nav.navbar + tab" -->
-    <div class="navbar__container">
-        <!-- creating a div class using ".navbar__container + tab" -->
-        <a href="#home" id="navbar__logo">Xinyi Cindy Chen</a>
-        <!-- create an id using "a#navbar__logo + tab" -->
-        <div class="navbar__toggle" id="mobile_menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+        <div class="navbar__container">
+            <!-- creating a div class using ".navbar__container + tab" -->
+            <a href="#home" id="navbar__logo">Xinyi Cindy Chen</a>
+            <!-- create an id using "a#navbar__logo + tab" -->
+            <div class="navbar__toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- actual nav menu -->
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home_page">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#aboutme" class="navbar__links" id="aboutme_page">
+                        About Me
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links" id="projects_page">
+                        Projects
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#experiences" class="navbar__links" id="experiences_page">
+                        Experiences
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links" id="contact_page">
+                        Contact
+                    </a>
+                </li>
+            </ul>
         </div>
-        <!-- actual nav menu -->
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="#home" class="navbar__links" id="home_page">
-                    Home
-                </a>
-            </li>
-            <li class="navbar__item">
-                <a href="#aboutme" class="navbar__links" id="aboutme_page">
-                    About Me
-                </a>
-            </li>
-            <li class="navbar__item">
-                <a href="#projects" class="navbar__links" id="projects_page">
-                    Projects
-                </a>
-            </li>
-            <li class="navbar__item">
-                <a href="#experiences" class="navbar__links" id="experiences_page">
-                    Experiences
-                </a>
-            </li>
-            <li class="navbar__item">
-                <a href="#contact" class="navbar__links" id="contact_page">
-                    Contact
-                </a>
-            </li>
-        </ul>
+    </nav>
+
+    <!-- home apge section -->
+    <div class="home_page" id="home">
+        <div class="home_container">
+            <h1 class="home__heading">Hello World <span>something</span></h1>
+            <p class="home__description">description</p>
+            <button class="main__btn"><a href="#">explore</a></button>
+            <div class="main_image_container">
+                <img src="images/4.svg" alt="pic" id="hello_world">
+            </div>
+        </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
