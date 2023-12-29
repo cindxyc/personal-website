@@ -298,3 +298,36 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+#long_cloud {
+    position: absolute;
+    margin-top: 3000px;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .skills__container{
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    z-index: 1;
+    width: 10%;
+    max-width: 13px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.skills{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    list-style: None;
+}
+
+.skills__items {
+    height: 50px;
+    width: 30px;
+    max-width: 50px;
+} */
