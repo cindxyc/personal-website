@@ -12,7 +12,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: 'etna', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -39,6 +39,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
     padding: 0 auto;
 }
 
+/* hashtags # reference to id */
 #navbar__logo{
     background-color: #80a0ce;
     background-image: linear-gradient(to top, #4d668a 0%, #a1c4f5 100%);
@@ -100,7 +101,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
     color: #fff;
     transition: all 0.3s ease;
 }
-*/
+ */
 
 .navbar__links:hover{
     color: #fff;
@@ -189,21 +190,78 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
     }
 }
 
-
-/* hero section */
-.main {
+body {
     background-color: #f0f8ff;
 }
 
-.main__container {
+/* hero section */
+.home_page {
+    background-color: #f0f8ff;
+}
+
+.home__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: 90%;
+    height: 100%;
     text-align: center;
-    padding: 30px;
-    background-color: #f0f8ff;
+    padding: 200px;
+}
+
+#cloud1 {
+    position: absolute;
+    top: -13px;
+    left: 220px;
+    width: 380px;
+    max-width: 800px;
+    margin-top: 32px;
+}
+
+#cloud2 {
+    position: absolute;
+    top: 5px;
+    right: -8px;
+    width: 600px;
+    max-width: 800px;
+    margin-top: 32px;
+}
+
+#cloud3 {
+    position: absolute;
+    top: 100px;
+    left: -180px;
+    width: 700px;
+    max-width: 800px;
+    margin-top: 32px;
+}
+
+#cloud4 {
+    transform: scaleX(-1);
+    position: absolute;
+    top: 520px;
+    left: 500px;
+    width: 450px;
+    max-width: 500px;
+    margin-top: 32px;
+}
+
+#hello_world {
+    position: absolute;
+    top: 50px;
+    left: 380px;
+    width: 500px;
+    max-width: 1200px;
+    margin-top: 32px;
+}
+
+#pink {
+    position: absolute;
+    top: 220px;
+    right: 380px;
+    width: 600px;
+    max-width: 1200px;
+    margin-top: 32px;
 }
