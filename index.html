@@ -7,6 +7,7 @@
     <title>Personal Website</title>
     <!-- link to styles.css file -->
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5d81fc7d6.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -57,48 +58,74 @@
     </nav>
 
     <!-- home apge section -->
-    <div class="home_page" id="home">
+    <div class="home_page">
+        <img src="images/cloud 1.svg" alt="pic" id="cloud1">
+        <img src="images/cloud 2.svg" alt="pic" id="cloud2">
+        <img src="images/cloud 3.svg" alt="pic" id="cloud3">
+        <img src="images/cloud 1.svg" alt="pic" id="cloud4">
+        <!-- so that clouds stick to the background?? idk, ill go crazy if it doesnt turn out the way i want -->
         <div class="home__container">
             <!-- 
             <h1 class="home__heading">Hello World <span>something</span></h1>
             <p class="home__description">description</p>
             <button class="main__btn"><a href="#">explore</a></button>
              -->
-            <img src="images/cloud 1.svg" alt="pic" id="cloud1">
-            <img src="images/cloud 2.svg" alt="pic" id="cloud2">
-            <img src="images/cloud 3.svg" alt="pic" id="cloud3">
-            <img src="images/cloud 1.svg" alt="pic" id="cloud4">
-            <img src="images/5.svg" alt="pic" id="pink">
-            <img src="images/4.svg" alt="pic" id="hello_world">
+            <div class="window1__container">
+                <img src="images/home/blue window.png" alt="pic" id="hello_world">
+            </div>
+            <div class="window2__container">
+                <img src="images/home/pink window.png" alt="pic" id="pink">
+            </div>
         </div>
     </div>
 
     <!-- about me page -->
-    <div class="about_me_page" id="about_me">
+    <div class="about_me_page">
+        <!-- big cloud about me -->
         <div class="about_me__container">
-            <img src="images/aboutme.svg" alt="pic" id="big_cloud">
-            <img src="images/me.svg" alt="pic" id="me">
-            <img src="images/long cloud.svg" alt="pic" id="long_cloud">
+            <img src="images/about me/aboutme.png" alt="pic" id="big_cloud">
         </div>
-        <!-- <div class="skills__container">
+        <div class="my_pic__container">
+            <img src="images/about me/me.svg" alt="pic" id="me">
+        </div>
+        
+        <!-- skills section -->
+        <div class="skills__container">
+            <h1>My skills</h1>
+            <img src="images/skills/long cloud.svg" alt="pic" id="long_cloud">
             <ul class="skills">
                 <li class="skills__items">
-                    <img src="images/skills/python.svg" alt="pic" id="python">
+                    <img src="images/skills/python.svg" class="skills_pic" alt="pic" id="python">
+                    <!-- <i class="fa-brands fa-python fa-7x" style="color: #535878;"></i> -->
+                    <div class="skills_name">Python</div>
                 </li>
                 <li class="skills__items">
-                    <img src="images/skills/java.svg" alt="pic" id="java">
+                    <img src="images/skills/java.svg" class="skills_pic" alt="pic" id="java">
+                    <!-- <i class="fa-brands fa-java fa-7x" style="color: #535878;"></i> -->
+                    <div class="skills_name">Java</div>
                 </li>
                 <li class="skills__items">
-                    <img src="images/skills/html.svg" alt="pic" id="html">
+                    <img src="images/skills/css.svg" class="skills_pic" alt="pic" id="html">
+                    <!-- <i class="fa-brands fa-html5 fa-7x" style="color: #535878;"></i> -->
+                    <div class="skills_name">HTML</div>
                 </li>
                 <li class="skills__items">
-                    <img src="images/skills/css.svg" alt="pic" id="css">
+                    <img src="images/skills/html.svg" class="skills_pic" alt="pic" id="css">
+                    <!-- <i class="fa-brands fa-css3-alt fa-7x" style="color: #535878;"></i> -->
+                    <div class="skills_name">CSS</div>
                 </li>
                 <li class="skills__items">
-                    <img src="images/skills/figma.svg" alt="pic" id="figma">
+                    <img src="images/skills/javascript.svg" class="skills_pic" alt="pic" id="javascript">
+                    <!-- <i class="fa-brands fa-js fa-7x" style="color: #535878;"></i> -->
+                    <div class="skills_name">Javascript</div>
+                </li>
+                <li class="skills__items">
+                    <img src="images/skills/figma.svg" class="skills_pic" alt="pic" id="figma">
+                    <!-- <i class="fa-brands fa-figma fa-7x" style="color: #535878;"></i> -->
+                    <div class="skills_name">Figma</div>
                 </li>
             </ul>
-        </div> -->
+        </div>
     </div>
 </body>
 </html>

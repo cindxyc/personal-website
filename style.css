@@ -160,7 +160,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
 
     .navbar__links {
         text-align: center;
-        padding: 2rem;
+        padding: 1rem;
         width: 100%;
         display: table;
     }
@@ -194,140 +194,201 @@ body {
     background-color: #f0f8ff;
 }
 
-/* hero section */
+/* home section */
 .home_page {
     background-color: #f0f8ff;
-}
-
-.home__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 100%;
-    text-align: center;
-    padding: 200px;
+    height: 950px;
+    /* border-style: solid;  TODO: UNCOMMENT */
+    /* margin-bottom: 450px; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 #cloud1 {
     position: absolute;
-    top: -13px;
+    top: -30px;
     left: 220px;
     width: 380px;
     max-width: 800px;
-    margin-top: 32px;
 }
 
 #cloud2 {
     position: absolute;
-    top: 5px;
+    top: 10px;
     right: -8px;
-    width: 600px;
+    width: 550px;
     max-width: 800px;
-    margin-top: 32px;
 }
 
 #cloud3 {
     position: absolute;
-    top: 100px;
+    top: 130px;
     left: -180px;
     width: 700px;
     max-width: 800px;
-    margin-top: 32px;
 }
 
 #cloud4 {
     transform: scaleX(-1);
     position: absolute;
-    top: 520px;
-    left: 500px;
-    width: 450px;
+    top: 480px;
+    left: 450px;
+    width: 500px;
     max-width: 500px;
-    margin-top: 32px;
+}
+
+/* where the lil windows are placed */
+.home__container {
+    /* background-color: #395886; */
+    display: flex;
+    height: 650px;
+    position: relative;
+    top: 122px;
+    width: 60%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 auto;
+    /* flex-direction: row; */
+}
+
+/* the blue hello world window container */
+.window1__container {
+    display: flex;
+    height: 300px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 44%;
+    max-width: 1300px;
+    z-index: 2;
 }
 
 #hello_world {
     position: absolute;
-    top: 50px;
-    left: 380px;
-    width: 500px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
     max-width: 1200px;
-    margin-top: 32px;
+}
+
+/* the pink window container */
+.window2__container {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 60%;
+    max-width: 1300px;
+    z-index: 1;
 }
 
 #pink {
     position: absolute;
-    top: 220px;
-    right: 380px;
-    width: 600px;
-    max-width: 1200px;
-    margin-top: 32px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    max-width: 1300px;
 }
 
+/* about me section */
 .about_me_page {
     background-color: #f0f8ff;
+    /* border-style: solid;  TODO: UNCOMMENT */
+    /* height: 950px; */
 }
 
 .about_me__container {
     display: flex;
+    height: auto;
+    position: relative;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    top: 78px;
+    width: 88%;
+    height: 800px;
+    max-width: 1920px;
     margin: 0 auto;
-    height: 100%;
-    text-align: center;
-    padding: 200px;
-}
-
-#me {
-    position: absolute;
-    top: 1500px;
-    right: 0px;
-    width: 600px;
-    max-width: 800px;
+    padding: 0 auto;
+    z-index: 1;
 }
 
 #big_cloud {
     position: absolute;
-    margin-top: 1500px;
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.my_pic__container {
+    display: flex;
+    height: auto;
+    position: relative;
+    bottom: 200px;
+    left: 550px;
+    width: 35%;
+    height: 300px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 auto;
+    z-index: 2;
+}
+
+#me {
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+}
+
+.skills__container {
+    /* background-color: #535878; */
+    display: flex;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    top: 10px;
+    width: 95%;
+    height: 500px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 auto;
+    /* z-index: 1; */
 }
 
 #long_cloud {
     position: absolute;
-    margin-top: 3000px;
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* .skills__container{
     display: flex;
-    justify-content: space-between;
-    height: 10px;
-    z-index: 1;
-    width: 10%;
-    max-width: 13px;
-    margin: 0 auto;
-    padding: 0 auto;
+    width: 100%;
+    max-width: 1920px;
 }
-
+/* 
 .skills{
+    display: inline-block;
     width: 30px;
+    max-width: 50px;
     display: flex;
     align-items: center;
+    text-align: center;
     list-style: None;
 }
 
 .skills__items {
-    height: 50px;
-    width: 30px;
-    max-width: 50px;
+    width: 100%;
+    height: auto;
+    margin: 100px;
+    text-align: center;
+}
+
+.skills_pic {
+    width: 80px;
+    max-width: 200px;
+    text-align: center;
+    border-radius: 33px;
+    background: #ffffff;
+    box-shadow: 13px 13px 22px #dedede, -13px -13px 22px #ffffff;
+}
+
+/* .skills__name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 } */
