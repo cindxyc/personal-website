@@ -12,16 +12,17 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'etna', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     scroll-behavior: smooth;
 }
 
 .navbar{
     background: #9db0ce;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: 1.3rem;
     position: sticky;
     top: 0;
@@ -31,27 +32,32 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
 .navbar__container{
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 auto;
 }
 
 /* hashtags # reference to id */
 #navbar__logo{
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    color: white;
+    /* 
     background-color: #80a0ce;
     background-image: linear-gradient(to top, #4d668a 0%, #a1c4f5 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
     display: flex;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-inline: 22px;
 }
 
 .navbar__menu{
@@ -62,6 +68,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
 
 .navbar__item{
     height: 100px;
+    float: left;
 }
 
 .navbar__links{
@@ -69,7 +76,8 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
+    /* width: 200px; */
+    margin-inline: 22px;
     text-decoration: none;
     height: 100%;
     transition: all 0.3s ease;
@@ -199,9 +207,6 @@ body {
     background-color: #f0f8ff;
     height: 950px;
     /* border-style: solid;  TODO: UNCOMMENT */
-    /* margin-bottom: 450px; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 #cloud1 {
@@ -215,7 +220,7 @@ body {
 #cloud2 {
     position: absolute;
     top: 10px;
-    right: -8px;
+    right: 0px;
     width: 550px;
     max-width: 800px;
 }
@@ -223,7 +228,7 @@ body {
 #cloud3 {
     position: absolute;
     top: 130px;
-    left: -180px;
+    left: -222px;
     width: 700px;
     max-width: 800px;
 }
@@ -231,7 +236,7 @@ body {
 #cloud4 {
     transform: scaleX(-1);
     position: absolute;
-    top: 480px;
+    top: 520px;
     left: 450px;
     width: 500px;
     max-width: 500px;
@@ -239,16 +244,14 @@ body {
 
 /* where the lil windows are placed */
 .home__container {
-    /* background-color: #395886; */
     display: flex;
     height: 650px;
     position: relative;
-    top: 122px;
+    top: 150px;
     width: 60%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 auto;
-    /* flex-direction: row; */
 }
 
 /* the blue hello world window container */
@@ -297,14 +300,13 @@ body {
 
 .about_me__container {
     display: flex;
-    height: auto;
     position: relative;
     flex-direction: column;
     align-items: center;
     top: 78px;
     width: 88%;
     height: 800px;
-    max-width: 1920px;
+    /* max-width: 1300px; */
     margin: 0 auto;
     padding: 0 auto;
     z-index: 1;
@@ -313,19 +315,26 @@ body {
 #big_cloud {
     position: absolute;
     width: 100%;
-    max-width: 1920px;
+    /* max-width: 1300px; */
 }
 
 #title {
     position: absolute;
     margin-top: 130px;
     width: 30%;
-    max-width: 1920px;
+    max-width: 1300px;
 }
 
-/* content {
-    
-}*/
+.about_me__content {
+    position: relative;
+    top:222px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* text content */
 
 .my_pic__container {
     display: flex;
@@ -335,7 +344,7 @@ body {
     left: 550px;
     width: 35%;
     height: 300px;
-    max-width: 1920px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 auto;
     z-index: 2;
@@ -357,7 +366,7 @@ body {
     top: 0px;
     width: 95%;
     height: 300px;
-    max-width: 1920px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 auto;
 }
@@ -366,7 +375,7 @@ body {
     position: absolute;
     bottom: 100px;
     width: 100%;
-    max-width: 1920px;
+    max-width: 1300px;
     z-index: 1;
 }
  
@@ -426,6 +435,6 @@ body {
     background-color: #f0f8ff;
 }
 
-.contact__container {
+.cloud__container {
     height: 100px;
 }
