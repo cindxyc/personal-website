@@ -18,7 +18,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
 
 .navbar{
     background: #9db0ce;
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
 .navbar__container{
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 90px;
     z-index: 1;
     width: 100%;
     max-width: 1600px;
@@ -42,22 +42,14 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
 
 /* hashtags # reference to id */
 #navbar__logo{
-    font-family: 'Rubik Doodle Shadow', sans-serif;
-    color: white;
-    /* 
-    background-color: #80a0ce;
-    background-image: linear-gradient(to top, #4d668a 0%, #a1c4f5 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent; */
     display: flex;
     align-items: center;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 3rem;
-    margin-inline: 22px;
+}
+
+#name_logo {
+    width: 400px;
+    height: auto;
 }
 
 .navbar__menu{
@@ -67,7 +59,6 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
 }
 
 .navbar__item{
-    height: 100px;
     float: left;
 }
 
@@ -206,7 +197,6 @@ body {
 .home_page {
     background-color: #f0f8ff;
     height: 950px;
-    /* border-style: solid;  TODO: UNCOMMENT */
 }
 
 #cloud1 {
@@ -425,8 +415,15 @@ body {
     background-color: #f0f8ff;
 }
 
-.projects__container {
+.page__title {
+    background-color: white;
     height: 100px;
+    text-align: center;
+}
+
+.projects__container {
+    background-color: #535878;
+    height: 500px;
 }
 
 
