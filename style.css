@@ -419,11 +419,15 @@ body {
     /* background-color: white; */
     height: 130px;
     text-align: center;
+    /* background-color: #395886; */
 }
 
 #projects_header {
     width: 30%;
     height: auto;
+    /* background-color: white;
+    border-radius: 30px;
+    padding: 20px 100px 20px 100px; */
 }
 
 .projects__container {
@@ -449,12 +453,13 @@ body {
     list-style: None;
 }
 
+/* animation TODO: when hover over, shades appear */
 .project__items {
     margin: 0 50px;
 }
 
 .project_frame {
-    width: 70%;
+    width: 400px;
 }
 
 
