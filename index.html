@@ -173,11 +173,21 @@
 
     <!-- contact page -->
     <div class="contact_page">
-        <h1>Contact me</h1>
-        <div class="cloud__container">
-            <div class="contact__container">
-
-            </div>
+        <div class="contact_page__title">
+            <img src="images/contact/Contact Me.png" alt="pic" id="contact_header">
+        </div>
+        <div class="contact__container">
+            <form>
+                <p>Your Name</p>
+                <input type="text" id="name" placeholder="full name" required>
+                <p>Your Email</p>
+                <input type="email" id="email" placeholder="email address" required>
+                <p>Subject</p>
+                <input type="text" id="subject" placeholder="subject" required>
+                <p>Your Message</p>
+                <textarea id="message" cols="30" rows="5" placeholder="message"></textarea>
+                <button type="submit">SEND</button>
+            </form>
         </div>
     </div>
 </body>
