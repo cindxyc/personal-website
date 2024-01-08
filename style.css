@@ -345,7 +345,7 @@ body {
     width: 100%;
     max-width: 800px;
 }
-
+/* 
 .skills__container {
     display: flex;
     height: auto;
@@ -381,16 +381,17 @@ body {
 .skills__items {
     margin: 0 50px;
 }
+*/
 
 /* TODO: animation & decorations */
-.skills_pic {
+/* .skills_pic {
     height: 100px;
     max-width: 200px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 20px; */
     /* background: #ffffff; */
     /* box-shadow: 13px 13px 22px #dedede, -13px -13px 22px #ffffff; */
-}
+/* } */
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 /* @media screen and (max-width: 500px) {
@@ -403,10 +404,27 @@ body {
 /* experience section */
 .experience_page {
     background-color: #f0f8ff;
+    align-items: center;
+    justify-items: center;
+}
+
+.experience_page__title {
+    height: 130px;
+    text-align: center;
+}
+
+#experience_header {
+    height: 40%;
+    margin-top: 30px;
 }
 
 .experience__container {
-    height: 100px;
+    width: 45%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -424,6 +442,7 @@ body {
 
 #projects_header {
     height: 40%;
+    margin-top: 30px;
 }
 
 .projects__container {
@@ -456,6 +475,8 @@ body {
 
 .project_frame {
     width: 400px;
+    /* shadow */
+    /* filter: drop-shadow(12px 8px 4px #9db0ce); */
 }
 
 
@@ -498,12 +519,12 @@ form {
 p {
     text-align: left;
     padding-top: 22px;
-    font-size: 30px;
+    font-size: 25px;
     color: #535878;
 }
 
 form input, form textarea {
-    border: 2;
+    border: 2.5px;
     border-color: #535878;
     border-style: solid;
     border-radius: 13px;
@@ -514,7 +535,7 @@ form input, form textarea {
 }
 
 form textarea {
-    border: 2px solid #535878;  /* Use the same border style as for input */
+    border: 2.5px solid #535878;
     border-radius: 13px;
     padding: 13px;
     outline: none;
