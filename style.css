@@ -318,13 +318,23 @@ body {
 .about_me__content {
     position: relative;
     top:222px;
-    width: 80%;
+    width: 90%;
     height: 500px;
     margin: 0 auto;
     padding: 0 auto;
 }
 
-/* text content */
+p {
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 180px;
+}
 
 .my_pic__container {
     display: flex;
