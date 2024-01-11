@@ -421,6 +421,7 @@ p {
 .experience_page__title {
     height: 130px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #experience_header {
@@ -429,17 +430,60 @@ p {
 }
 
 .experience__container {
-    width: 45%;
-    height: 800px;
+    width: 70%;
+    /* height: 200px; */
+    height: auto;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 13px;
 }
 
+.years {
+    padding-top: 15px;
+    width: 150px;
+}
+
+#year {
+    color: #535878;
+}
+
+.experience_items {
+    margin-left: 100px;
+    padding: 15px 50px;
+    /* padding-left: 50px; */
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+#position {
+    color: #535878;
+    padding: 5px 0px;
+}
+
+#company {
+    color: #535878;
+    padding-top: 5px;
+}
+
+#period {
+    color: #535878;
+    padding-top: 2px;
+}
+
+#description {
+    color: #6D7080;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 /* projects page */
 .projects_page {
+    margin-top: 130px;
     background-color: #f0f8ff;
 }
 
