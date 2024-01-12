@@ -310,14 +310,14 @@ body {
 
 #title {
     position: absolute;
-    margin-top: 130px;
+    margin-top: 150px;
     height: 60px;
     max-height: 130px;
 }
 
 .about_me__content {
     position: relative;
-    top:222px;
+    top:245px;
     width: 90%;
     height: 500px;
     margin: 0 auto;
@@ -514,6 +514,7 @@ p {
     /* max-width: 1300px; */
     margin: 0 auto;
     padding: 0 auto;
+    margin-bottom: 200px;
 }
  
 .projects{
@@ -525,15 +526,58 @@ p {
 
 /* animation TODO: when hover over, shades appear */
 .project__items {
+    background-color: #fff;
+    position: relative;
+    width: 380px;
+    height: 430px;
+    border-radius: 50px;
     margin: 0 50px;
 }
 
-.project_frame {
-    width: 400px;
-    /* shadow */
-    /* filter: drop-shadow(12px 8px 4px #9db0ce); */
+#project_name {
+    /* background-color: white; */
+    position: relative;
+    justify-content: center;
+    padding-top: 22px;
+    color: #535878;
 }
 
+#project_description {
+    position: relative;
+    text-align: center;
+    color: #6D7080;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 22px;
+    margin-top: 15px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+.project_sample {
+    position: relative;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    bottom: 0;
+    width: 320px;
+    height: 250px;
+    background-color: #395886;
+    border-radius: 50px;
+}
+
+#sample {
+    position: relative;
+    /* max-width: 100%; */
+    /* max-height: 100%;
+    width: auto;
+    height: auto; */
+    width: 320px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 22px;
+}
 
 /* contact page */
 .contact_page {
