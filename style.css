@@ -17,6 +17,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
 }
 
 .navbar{
+    position: absolute;
     background: #9db0ce;
     height: 90px;
     display: flex;
@@ -36,41 +37,39 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
     z-index: 1;
     width: 100%;
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0 35px;
     padding: 0 auto;
+    /* background-color: #395886; */
 }
 
-/* hashtags # reference to id */
+/* top right name logo */
 #navbar__logo{
     display: flex;
     align-items: center;
     cursor: pointer;
-}
-
-#name_logo {
-    width: 400px;
-    height: auto;
+    font-size: 35px;
+    text-decoration: none;
+    justify-content: space-between;
+    color: #fff;
+    width: 350px;
+    min-width: 350px;
 }
 
 .navbar__menu{
+    position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
     list-style: None;
-}
-
-.navbar__item{
-    float: left;
 }
 
 .navbar__links{
     color: #535878;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    /* width: 200px; */
-    margin-inline: 22px;
+    padding: 0 22px;
     text-decoration: none;
-    height: 100%;
     transition: all 0.3s ease;
 }
 
@@ -107,7 +106,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -142,7 +141,7 @@ pink stuff (from dark to light): #cea0aa, #e9c2c5, #fee1dd
     }
 
     #navbar__logo {
-        padding-left: 20px;
+        padding-left: 22px;
     }
 
     .navbar__toggle .bar {
@@ -341,9 +340,9 @@ p {
     display: flex;
     height: auto;
     position: relative;
-    bottom: 200px;
+    bottom: 150px;
     left: 550px;
-    width: 35%;
+    width: 28%;
     height: 300px;
     max-width: 1300px;
     margin: 0 auto;
