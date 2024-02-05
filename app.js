@@ -34,26 +34,26 @@ menu.addEventListener('click', mobileMenu)
 // 2525
 // security token
 // 21182581-742c-43e1-983b-35aeba754aed
-const form = document.querySelector("form");
-const input_name = document.getElementById("name");
-const email = document.getElementById("email");
-const subject = document.getElementById("subject");
-const message = document.getElementById("message");
-const submit = document.getElementsByClassName("contact_form")[0];
+// const form = document.querySelector("form");
+// const input_name = document.getElementById("name");
+// const email = document.getElementById("email");
+// const subject = document.getElementById("subject");
+// const message = document.getElementById("message");
+// const submit = document.getElementsByClassName("contact_form")[0];
 
-submit.addEventListener("submit", (e) => {
-    e.preventDefault();
-    console.log("Clicked");
-    Email.send({
-        SecureToken : "21182581-742c-43e1-983b-35aeba754aed",
-        To : 'chencindy.1206@gmail.com',
-        From : "chencindy.1206@gmail.com",
-        Subject : "New Inquiry from " + subject.value,
-        Body : "Test"
-    }).then(
-        message => alert(message)
-    );
-});
+// submit.addEventListener("submit", (e) => {
+//     e.preventDefault();
+//     console.log("Clicked");
+//     Email.send({
+//         SecureToken : "21182581-742c-43e1-983b-35aeba754aed",
+//         To : 'chencindy.1206@gmail.com',
+//         From : "chencindy.1206@gmail.com",
+//         Subject : "New Inquiry from " + subject.value,
+//         Body : "Test"
+//     }).then(
+//         message => alert(message)
+//     );
+// });
 
 
 // function sendEmail() {
