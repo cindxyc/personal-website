@@ -1,4 +1,4 @@
-# Cindy's portfolio 🌐
+# Cindee's portfolio 🌐
 
 Welcome to my personal website!
 
