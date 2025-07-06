@@ -652,3 +652,7 @@ form button {
     border-radius: 15px;
     border: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
