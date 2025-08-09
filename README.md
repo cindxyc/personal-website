@@ -1,8 +1,8 @@
-# Cindee's portfolio 🌐
+# Cindee's portfolio (ARCHIVED) 🌐
 
 Welcome to my personal website!
 
-Link to the website: https://cindxyc.netlify.app 🔗
+Link to the website: [https://cindxyc.netlify.app](https://archivedcindxyc.netlify.app) 🔗
 
 ## Contents
 * About Me
